@@ -1,4 +1,4 @@
-# Dagger2 vs Koin vs Kodein vs Katana
+# Dagger 2 vs Koin vs Kodein vs Katana
 
 The project is based on Android Injection Performance (https://github.com/Sloy/android-dependency-injection-performance). 
 

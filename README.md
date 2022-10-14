@@ -6,7 +6,8 @@ All libraries have been updated to the latest versions.
 
 Updated gradle and included support for android x.
 
-
+ 
+ 
 Проект базируется на Android Injection Performance (https://github.com/Sloy/android-dependency-injection-performance). 
 
 Были обновлены все библиотеки до актуальных версий. 

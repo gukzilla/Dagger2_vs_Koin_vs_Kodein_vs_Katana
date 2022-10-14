@@ -6,15 +6,24 @@ All libraries have been updated to the latest versions.
 
 Updated gradle and included support for android x.
 
+
+## Libraries tested
+- [Koin](https://insert-koin.io/) - 3.1.2
+- [Kodein](http://kodein.org/Kodein-DI/) - 6.3.3
+- [Dagger 2](https://google.github.io/dagger/) - 2.44
+- [Katana](https://github.com/rewe-digital-incubator/katana/) - 1.15.0
  
  
-Проект базируется на Android Injection Performance (https://github.com/Sloy/android-dependency-injection-performance). 
+## The test
+The test data are classes with dependencies in a structure similar to Fibonacci sequence, to simulate multiple levels of transitive dependencies.
+For each library there is a test with Kotlin classes and one with Java classes, because some libraries seem to be affected by this difference.
 
-Были обновлены все библиотеки до актуальных версий. 
+Each test injects one of this dependencies 100 times and prints the maximum time, the minimum and the average.
 
-Обновлены градл и включена поддержка андроид х.
+The project contains an Android application that run the tests on its onCreate and prints the result to the Logcat.
 
-## Тест
+The actual test is implemented in the class [InjectionTest.kt]
+
 
 Library | Setup Kotlin | Setup Java | Inject Kotlin | Inject Java
 --- | ---:| ---:| ---:| ---:
